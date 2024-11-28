@@ -1,0 +1,373 @@
+/* ======== Google font ========== */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+
+
+
+
+
+/* ======== Nav Section  ========== */
+
+
+nav {
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.price-txt {
+
+    color: #9dcc95;
+}
+
+
+#page-1 {
+
+    padding-top: 150px;
+    background-color: #fafaf7;
+    height: auto;
+    padding-bottom: 100px;
+    font-family: 'Merriweather', sans-serif;
+    background-image: url(./Imgs/leaf-bara\ wala.webp);
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    background-position: bottom right;
+}
+
+
+
+
+
+#sub-page-1 {
+    background-color: #000000;
+    font-family: 'Merriweather', sans-serif;
+    margin-bottom: 20px;
+    padding: 100px 0px;
+}
+
+.sub-cards {
+    padding: 20px;
+}
+
+
+.free-shipping {
+    background-color: gray;
+    color: white;
+    text-align: start;
+    padding: 20px;
+    border-radius: 5px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.free-shipping:hover{
+    background-color: #9dcc95;
+    transition: background-color 0.3s ease;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+#page-2 {
+    background-color: #ffffff;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: 'Merriweather', sans-serif;
+
+
+
+    background-image: url(./Imgs/basil-leaf.webp);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: bottom center;
+
+}
+
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.products-cards:hover{
+   
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease;
+    transform: scale(1.01);
+    cursor: pointer;
+    background-color: rgb(246, 250, 250);
+
+}
+
+
+.card-img-top {
+    object-fit: cover;
+    height: 300px;
+}
+
+.hero-cards .card {
+
+    background-color: none;
+    border: none;
+    outline: none;
+
+}
+
+
+.hero-cards .card-body {
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+
+
+#page-3 {
+    background-color: #f7f5f2;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: 'Merriweather', sans-serif;
+
+}
+
+.section-3-card {
+    padding: 10px;
+    padding-top: 50px;
+    background-color: white;
+    border-radius: 8px;
+    height: 300px;
+
+
+}
+
+
+
+.s-cards-3-img-1 {
+    background-image: url(./Imgs/lemon.webp);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: right bottom;
+}
+
+
+.s-cards-3-img-2 {
+    background-image: url(./Imgs/sabze.webp);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: right bottom;
+}
+
+
+
+
+
+.s-cards-3-img-3 {
+    background-image: url(./Imgs/kush\ bhe.webp);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: right bottom;
+}
+
+
+
+
+
+.headings p {
+    color: #545454;
+}
+
+#sub-page-2 {
+    background-color: #000000;
+    height: auto;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: 'Merriweather', sans-serif;
+
+}
+
+.sub-footer {
+    font-family: 'Merriweather', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    background-color: #f7f5f2;
+}
+
+
+
+
+#page-4 {
+    background-color: #f4f3f0;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: 'Merriweather', sans-serif;
+    background-image: url(./Imgs/leaf-bara\ wala.webp);
+    background-repeat: no-repeat;
+    background-size: 30vw;
+    background-position: top left;
+
+
+}
+
+
+
+.page-4-card{
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+  background-color: white;
+    border-radius: 8px;
+    height: 300px;
+    margin-top: 150px !important;
+
+}
+
+.owner-img:hover{
+    cursor: pointer;
+    border-radius: 50px;
+    -webkit-filter: brightness(128%) contrast(56%) saturate(200%);
+    filter: brightness(128%) contrast(56%) saturate(200%);
+}
+
+.owner-name:hover{
+    cursor: pointer;
+    
+}
+
+.s-cards-4-img-1{
+    background-image: url(./Imgs/Discount-card.webp);
+    background-repeat: no-repeat;
+    background-size: 70vh;
+    background-position: center;
+   
+  
+    
+}
+
+.s-cards-4-img-1:hover{
+    -webkit-filter: brightness(63%) contrast(78%) saturate(200%);
+    filter: brightness(63%) contrast(78%) saturate(200%);
+}
+
+
+
+.s-cards-4-img-1:hover{
+    cursor: pointer;
+   z-index: 200;
+}
+
+.section-4-card-2{
+    background-color: white;
+    border-radius: 8px;
+    height: 450px;
+
+
+}
+
+#footer{
+
+    background-color: #001524;
+    padding: 50px;
+    color: white;
+}
+
+
+.foter-ptext{
+    color: #a8b0b5;
+}
+
+
+.site-links{
+    
+    line-height: 12px;
+ 
+}
+
+
+.site-links p a{
+    color: #a8b0b5;
+   
+ 
+}
+/* ======== Welcome Css ========== */
+
+
+.svg-text {
+    font-family: "Merriweather Sans", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.svg-text text {
+    animation: stroke 7s forwards; /* Changed to 'forwards' to retain final state */
+    stroke-width: 2;
+    stroke: #8AC24A;
+    font-size: 68px;
+}
+
+@keyframes stroke {
+    0% {
+        fill: rgba(0,0,0,0);
+        stroke: rgba(138,194,74,1);
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+    70% {
+        fill: rgba(0,0,0,0);
+        stroke: #8ac24a;
+    }
+    80% {
+        fill: rgba(0,0,0,0);
+        stroke: rgba(138,194,74,1);
+        stroke-width: 3;
+    }
+    100% {
+        fill: rgba(0,0,0,1);
+        stroke: rgba(138,194,74,0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}
+
+.wrapper {
+    background-color: transparent;
+}
+
+/* Hide the SVG after animation */
+.hidden {
+    display: none;
+}
+
+
+
+@media (min-width: 575px) {
+    #sub-page-2 {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 77%, 48% 87%, 46% 77%, 0% 75%);
+    }
+
+    .page-4-card{
+        margin: 0;
+    }
+
+    
+}
+
+
+@media (min-width: 575px) {
+    .last-nav-icons {
+        display: none;
+    }
+
+}
